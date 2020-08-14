@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog API Example</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>This is a Dog API</h1>
+      <section class="results">
+        <h2>Choose you dog images!</h2>
+
+        <form class="image-choice">
+          <p>Choose between 1-50 dog pics:</p>
+          <input
+            type="number"
+            class="quantity"
+            name="quantity"
+            min="1"
+            max="50"
+            value="3"
+          />
+          <input type="submit" />
+        </form>
+        <br /><br />
+        <div class="results-img"></div>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
