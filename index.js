@@ -1,9 +1,6 @@
 "use strict";
 
-/**
- * Calls the dog api to randomly get a set number
- * of images
- */
+//calls API for random images
 function getDogImage(inputValue) {
   let requiredUrl = `https://dog.ceo/api/breeds/image/random/${inputValue}`;
 
